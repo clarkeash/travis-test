@@ -16,4 +16,6 @@ install:
 script: vendor/bin/phpunit
 
 notifications:
-  webhooks: http://6b5dd31c.ngrok.io/api/hooks/travis
+  webhooks: 
+    - http://6b5dd31c.ngrok.io/api/hooks/travis
+    - https://requestb.in/1giu0lv1
